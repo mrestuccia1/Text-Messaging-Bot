@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <script 
+        src="{{ url_for('static',filename='password.js') }}">     
+    </script>
+
+</head>
+<body>
+    <script>passwordCheck()</script>
+    <h1>Welcome!</h1>
+    <h3>Please Input Your Google Sheets and Phone Number</h3>
+    <form action="" method="POST">
+        <textarea type="url" name="url" placeholder="Google Sheets URL"></textarea>
+        <textarea type="message" name="number" placeholder="Enter your Phone Number"></textarea>
+        <br>
+        <br>
+        <textarea type="message" class="message" name="text" placeholder="Text"></textarea>
+        <button type="submit">Send</button>
+    </form>
+
+    <div class="rules">
+        
+        <h5> Instructions</h5>
+        <ol>
+            <li>In first box, Input google sheets link with phone numbers you need to text <br>Note: Make sure google sheet is enabled to share to anyone with link with edit access for the link</li>
+            <li>In the second box, type in your personal phone number</li>
+            <li>In the third box, write the message that you want to send. Make sure to include your number to text for any questions. <br> Example: "Text the rush chair John Doe at 312-111-1111 for any questions  "</li>
+        </ol>
+        
+        <h5> Rules</h5>
+        <ul>
+            <li>Input must be a google sheets</li>
+            <li>Make sure phone numbers are aligned on one column in google sheets with column title "Phone Numbers"</li>
+        </ul>
+
+    </div>
+</body>
+</html>

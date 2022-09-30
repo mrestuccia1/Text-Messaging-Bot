@@ -1,0 +1,2 @@
+# Text-Messaging Bot
+A mass messaging bot that uses the Twilio messaging API. This project is done in Python, with a HTML, CSS, and JavaScript to create the page. The routes for the page are done using Flask, and the website is hosted using Heroku. 
