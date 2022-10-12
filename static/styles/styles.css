@@ -1,0 +1,53 @@
+h1 {
+    color: maroon;
+    font-family: Verdana;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    margin-top: 6px;
+
+}
+
+h5 {
+    color: black;
+    font-family: Verdana;
+    padding-left: 9.4cm;
+    line-height: 0cm;
+}
+
+p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;    
+}
+
+li {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 8.4cm;
+    font-size: 16px;
+    list-style-position: inside;
+}
+
+form {
+    text-align: center;
+}
+
+a {
+    color: blue;
+}
+
+body {
+    background-color: lightgray;
+}
